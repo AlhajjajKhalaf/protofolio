@@ -1,0 +1,21 @@
+.Home{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding:10%;
+}
+.homeInformation{
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.myimage{
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+.DivOne{
+    display: flex;
+    flex-direction: row;
+}

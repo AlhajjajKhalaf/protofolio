@@ -7,7 +7,7 @@ import Home from "./components/Portofolio/Home"
 const App = () => {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
   
 
       <Routes>

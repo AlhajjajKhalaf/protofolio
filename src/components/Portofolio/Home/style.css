@@ -1,21 +1,560 @@
-.Home{
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*......................................................................*/
+
+.Continer {
+  display: flex;
+  flex-direction: row;
+}
+
+.One {
+  width: 10%;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  background-color: rgb(10, 25, 47);
+  position: sticky;
+  top: 0;
+
+  padding-top: 30px;
+
+  border-right: 2px solid rgb(89, 227, 197);
+}
+.oneOne {
+  border-bottom: 4px solid rgb(89, 227, 197);;
+  /* background-color: black; */
+}
+.K {
+  font-size: 100px;
+  color: rgb(89, 227, 197);
+  /* background-color:rgb(10,25,47); */
+  background-color:  rgb(10, 25, 47);
+  border: none;
+
+  text-shadow: 1px 1px 1px rgb(81, 240, 160), 1px 2px 1px rgb(81, 240, 160),
+    1px 3px 1px rgb(81, 240, 160), 1px 4px 1px rgb(216, 240, 81),
+    1px 5px 1px rgb(237, 240, 81), 1px 6px 1px rgb(240, 229, 81),
+    1px 7px 1px rgb(240, 229, 81), 1px 8px 1px rgb(240, 216, 81),
+    1px 9px 1px rgb(240, 216, 81);
+}
+.a {
+  width: 100%;
+  background-color: rgb(226, 125, 43);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.OneTwo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* gap: 50px; */
+
+  justify-content: space-around;
+
+  /* flex-flow: wrap; */
+
+  background-color: rgb(10, 25, 47);
+
+  padding-top: 20px;
+}
+
+.button {
+  background-color: rgb(10, 25, 47);
+  /* width: 9vw; */
+  height: 10vh;
+
+  /* width: 100%; */
+  color: aliceblue;
+
+  border: none;
+}
+
+.button:hover {
+  color: rgb(8, 253, 216);
+}
+.khalaf {
+  color: rgb(250, 245, 245);
+}
+
+/*..............*/
+.Two {
+  background-color: crimson;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  /* flex-flow: wrap;
+justify-content: space-around; */
+}
+
+.first {
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(10, 25, 47);
+
+  display: flex;
+  flex-direction: row;
+}
+.firstOne {
+  width: 80%;
+  height: 90vh;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  /* gap:-60px; */
+  /* background-color: chartreuse;  */
+  padding-top: 70px;
+
+  padding-left: 60px;
+}
+.h1h1 {
+  line-height: 1.1;
+  margin: 0px 0px 30px 4px;
+  color: var(--green);
+  font-family: font-file-82132;
+  /* font-size:2vw; */
+  font-weight: 400;
+
+  font-size: 4rem;
+  line-height: 7rem;
+
+  background-color: darkblue;
+}
+.h2h2 {
+  font-weight: 600;
+  color: var(--lightest-slate);
+  line-height: 1.1;
+
+  font-size: 6rem;
+  line-height: 7rem;
+}
+
+.span {
+  color: var(--green);
+  transition: all 0.3s ease-out;
+  transition-property: all;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+}
+.letter {
+  position: relative;
+  top: 50px;
+  animation: moveletter 0.5s ease-out forwards;
+}
+.FirstTwo {
+  /* background-color: rgb(200, 220, 20); */
+}
+
+@keyframes moveletter {
+  0% {
+    top: 40%;
+  }
+  70% {
+    top: -30%;
+  }
+
+  100% {
+    top: 10px;
+  }
+}
+
+/*......Secound...........*/
+.Second {
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(10, 25, 47);
+
+  display: flex;
+  flex-direction: row;
+}
+.SecondOne {
+  width: 50%;
+  height: 90vh;
+
+  text-align: start;
+
+  padding-left: 80px;
+}
+.self {
+  font-size: 5.5rem;
+}
+.paragraph {
+  color: rgb(248, 248, 248);
+  font-size: 22px;
+}
+
+.SecondTwo {
+  padding-left: 60px;
+  padding-top: 100px;
+}
+.DivimgDiv{
+    width: 300px;
+    height: 300px;
+    /* background-color: var(--green); */
+    /* border-bottom: 2px solid var(--green);
+    border-right:  2px solid var(--green);; */
+    background: linear-gradient(#ff0082,rgb(250,234,109),#00ff7d);
+
+    animation: animatK 4.5s linear infinite;
+
+
+}
+
+
+
+.divimage{
+   
+    /* width: 400px;
+    height: 400px; */
+    padding-top: 5px;
+    padding-left: 5px;
+  
+    
+
+}
+
+.img {
+    Z-index:10;
+  width: 300px;
+  height: 400px;
+/* position: relative; */
+  /* border: 4px solid var(--green); */
+
+  box-shadow: 5px 5px 20px var(--green);
+  
+  /* box-shadow: 10px 10px 20px rgb(173, 173, 219); */
+}
+.img:hover{
+    width: 320px;
+    height: 420px;
+  
+    /* border: 4px solid var(--green); */
+  
+    /* box-shadow: 1px 5px 30px var(--green); */
+/*     
+    box-shadow: 1px 5px 30px rgb(139, 139, 241); */
+  }
+/*............Skills............*/
+.skills {
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(10, 25, 47);
+  display: flex;
+  flex-direction: column;
+}
+.skillsOne {
+  width: 100%;
+  height: 40%;
+
+  text-align: start;
+
+  padding-left: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.imggg{
+    Z-index:10;
+    /* color: darkgreen;
+    background-color: rgb(71, 211, 49); */
+    width: 200px;
+    height: 200px;
+
+}
+
+.paragraphSkills{
+    /* color: var(--green); */
+    color: rgb(248, 248, 248);
+  font-size: 18px;
+}
+
+.skillsTwo{
+    height:80%;
+    width: 80%;
+    padding-left: 80px;
+    padding-top: 30px;
+    /* background-color: aliceblue; */
+    /* background-color: var(--green); */
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    padding:10%;
+    gap: 40px;
+    flex-wrap: wrap;
 }
-.homeInformation{
+
+
+
+@keyframes animate {
+0%{
+    transform: rotate(0deg);
+}
+100%{
+    transform: rotate(360deg);
+}
+}
+
+.Gh3{
+    position: relative;
+    Z-index:10;
+
+    text-align:center;
+    padding: 50%;
+    color: var(--green);
+}
+/*.......................*/
+
+/*.............*/
+.divtoolsss{
+    padding: 50px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     /* background-color: chartreuse; */
+    border-radius: 50%;
+    overflow: hidden;
+    /* background: rgb(206, 53, 15); */
+}
+.divtoolsss::before{
+    content: " ";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(#ff0082,rgb(250,234,109),#00ff7d);
+
+    animation: animate 4.5s linear infinite;
+}
+.divtoolsss::after{
+    content: " ";
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    /* inset: 5px; */
+    /* background: linear-gradient(#ff0082,#00ff7d); */
+/* background: black; */
+background-color: rgb(10, 25, 47);
+    
+}
+
+.img2{
+    Z-index:10;
+
+    text-align:center;
+
+
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    padding: 50%;
+}
+
+/*,,,,,,,,,,,,,,,*/
+
+.divtools{
+    padding: 50px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+    border-radius: 50%;
+    overflow: hidden;
+    /* background: rgb(206, 53, 15); */
+}
+.divtools::before{
+    content: " ";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(#00ff7d, #ff0082) ;
+
+    animation: animate 4.5s linear infinite;
+}
+.divtools::after{
+    content: " ";
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    /* inset: 5px; */
+    /* background: linear-gradient(#ff0082,#00ff7d); */
+/* background: black; */
+background-color: rgb(10, 25, 47);
+    
+}
+
+/*.............*/
+.divtoolssss{
+    padding: 50px;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: chartreuse; */
+    border-radius: 50%;
+    overflow: hidden;
+    /* background: rgb(206, 53, 15); */
+}
+.divtoolssss::before{
+    content: " ";
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    border-radius: 50%;
+    background: linear-gradient(#ff0082,#ffc5f0);
+
+    animation: animate 4.5s linear infinite;
+}
+.divtoolssss::after{
+    content: " ";
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    border-radius: 50%;
+    /* inset: 5px; */
+    /* background: linear-gradient(#ff0082,#00ff7d); */
+/* background: black; */
+background-color: rgb(10, 25, 47);
+    
+}
+
+/*...............*/
+.project{
+    padding: 20px;
+  width: 100%;
+  height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+   /* gap: 30px; */
+    text-align: start;
+
+    padding-left: 100px;
+    background-color: rgb(10, 25, 47);
 }
-.myimage{
-    width: 250px;
-    height: 250px;
-    border-radius: 125px;
-}
-.DivOne{
+.AllProject{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+.project5{
+    padding: 5px;
+  width: 455px;
+  height: 520px;
+  background: linear-gradient(#00ff7d,yellow, #ff0082) ;
+  /* background-color: coral; */
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.pro55{
+    padding: 5px;
+    width: 445px;
+  height: 512px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  overflow: hidden;
+  /* border-radius: 50%; */
+  /* background-color: rgb(83, 83, 165); */
+  background-color: rgb(21, 38, 65);
+  border-radius: 10px;
+}
+
+.df{
+    width: 390px;
+    height: 460px;
+    /* position: absolute;
+    Z-index:10; */
+    text-align:start;
+    /* background-color: rgb(218, 223, 230); */
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.imageProject{
+    width:390px;
+    height: 230px;
+    border-radius: 10px;
+}
+/* .project5::before{
+    content: " ";
+    width: 380px;
+    height: 380px;
+    position: absolute;
+
+    background: linear-gradient(#ff0082,#ffc5f0,yellow);
+
+    animation: animatea 4.5s linear infinite;
+}
+.project5::after{
+    content: " ";
+    width: 370px;
+    height: 370px;
+    position: absolute;
+    border-radius: 50%;
+    inset: 5px;
+   
+    
+} */
+
+
+
+
+
+
+@media screen and(max-width:400px) {
+  .h2 {
+    display: block;
+  }
+}
+
+.G {
+  color: var(--green);
+}
+.Name {
+    font-size: 18px;
+}
+
+.projectName{
+    font-size: 20px;
+}
+.white {
+  /* color:rgb(204,214,246); */
+  font-family: var(--font-sans);
+  color: var(--lightest-slate);
+}
+.P{
+    font-family: var(--font-sans);
+    color: var(--lightest-slate);
 }
